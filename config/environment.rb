@@ -1,9 +1,9 @@
 require 'bundler/setup'
 Bundler.require
-
 require 'active_record'
 require 'rake'
 require_all 'app/models'
+require pry
 
 ENV["PLAYLISTER_ENV"] ||= "development"
 
